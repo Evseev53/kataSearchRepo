@@ -1,0 +1,64 @@
+.body {
+    margin: 100px auto auto auto;
+    width: 500px;
+}
+
+.menu-element {
+    list-style-type: none;
+    padding: 5px 5px 5px 15px;
+}
+
+.menu-element:hover {
+    opacity: 0.5;
+}
+
+.menu-element:first-child {
+    padding-top: 15px;
+}
+
+.menu-element:last-child {
+    padding-bottom: 15px;
+}
+
+.menu {
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 0 0 5px 5px;
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+.input {
+    display: block;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input:focus {
+    outline: 0;
+    border-color: black;
+}
+
+.input::placeholder {
+    opacity: 0.4;
+}
+
+.result-element {
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
+    margin: 25px 5px 5px 0;
+    padding: 15px;
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    font-family: "Arial";
+}
